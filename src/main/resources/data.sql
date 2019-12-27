@@ -1,0 +1,54 @@
+
+insert into patient(id,first_name,last_name,age) values(1,'John','Dicosta',52);
+insert into patient(id,first_name,last_name,age) values(2,'Tony','Stark',32);
+insert into patient(id,first_name,last_name,age) values(3,'Anthony','Gonsalvis',22);
+insert into patient(id,first_name,last_name,age) values(4,'Bruce','Banner',33);
+insert into patient(id,first_name,last_name,age) values(5,'Abhram','Lincon',55);
+insert into patient(id,first_name,last_name,age) values(6,'Tonny','Singh',12);
+insert into patient(id,first_name,last_name,age) values(7,'Antti','Krovinan',27);
+insert into patient(id,first_name,last_name,age) values(8,'Simba','White',24);
+insert into patient(id,first_name,last_name,age) values(9,'Rose','Tanic',29);
+insert into patient(id,first_name,last_name,age) values(10,'Rowling','Lte',49);
+
+
+
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('1', '1', 'bp', '67/119', '2018-07-09 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('2', '2', 'bp', '63/115', '2018-06-19 19:34:24');	
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('3', '3', 'bp', '72/129', '2018-07-26 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('4', '4', 'bp', '74/139', '2018-08-03 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('5', '5', 'bp', '67/119', '2018-08-29 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('6', '6', 'bp', '62/109', '2018-07-12 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('7', '7', 'bp', '55/102', '2018-06-13 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('8', '8', 'bp', '47/90', '2018-08-02 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('9', '9', 'bp', '90/149', '2018-06-01 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('10', '10', 'bp', '50/109', '2018-07-09 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('11', '1', 'bp', '55/102', '2018-11-02 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('12', '2', 'bp', '67/119', '2018-08-09 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time) values('13', '3', 'bp', '63/115', '2018-09-09 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('14', '4', 'bp', '55/102', '2018-09-13 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('15', '5', 'bp', '50/109', '2018-10-12 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('16', '6', 'bp', '67/119', '2018-11-29 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('17', '7', 'bp', '63/115', '2018-11-03 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('18', '8', 'bp', '63/115', '2018-10-26 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('19', '9', 'bp', '55/102', '2018-09-11 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('20', '10', 'bp', '72/129', '2018-09-29 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('21', '1', 'bp', '55/102', '2018-10-09 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('22', '2', 'bp', '63/115', '2018-10-20 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('23', '3', 'bp', '55/102', '2018-11-19 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('24', '5', 'bp', '72/129', '2018-12-30 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('25', '6', 'bp', '63/115', '2018-10-21 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('26', '7', 'bp', '47/90', '2018-12-29 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('27', '8', 'bp', '63/115', '2018-11-08 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('28', '9', 'bp', '90/149', '2018-10-03 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('29', '10','bp', '55/102', '2018-10-29 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('30', '1', 'hw', '90/149', '2018-03-19 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('31', '2', 'hw', '55/102', '2018-04-03 19:34:24');
+insert into clinicaldata (id,patient_id,component_name,component_value,measured_date_time) values('32', '3', 'hw', '63/115', '2018-05-21 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('33', '4', 'hw', '47/90', '2018-03-31 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('34', '5', 'hw', '55/102', '2018-04-19 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('35', '6', 'hw', '72/129', '2018-04-28 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('36', '7', 'hw', '67/119', '2018-03-19 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('37', '8', 'hw', '50/109', '2018-05-21 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('38', '9', 'hw', '67/119', '2018-04-12 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('39', '10','bp', '67/119', '2018-03-19 19:34:24');
+insert into clinicaldata(id,patient_id,component_name,component_value,measured_date_time)  values('40', '1', 'bp', '67/119', '2019-06-09 19:34:24');
